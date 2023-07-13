@@ -1,0 +1,65 @@
+{
+    "ejemplos": [
+      {
+        "key": "1",
+        "nombre": "Juan Pérez",
+        "dx": {
+          "codigoCIE10": "F60.2",
+          "descripcion": "Trastorno de personalidad antisocial"
+        },
+        "gravedad": "Moderada",
+        "tipoIntervencion": "Terapia cognitivo-conductual",
+        "correo": "juan.perez@example.com",
+        "telefono": "123-456-7890"
+      },
+      {
+        "key": "2",
+        "nombre": "María García",
+        "dx": {
+          "codigoCIE10": "F41.1",
+          "descripcion": "Trastorno de ansiedad generalizada"
+        },
+        "gravedad": "Leve",
+        "tipoIntervencion": "Terapia de exposición",
+        "correo": "maria.garcia@example.com",
+        "telefono": "123-456-7890"
+      },
+      {
+        "key": "3",
+        "nombre": "Luisa Rodríguez",
+        "dx": {
+          "codigoCIE10": "F43.1",
+          "descripcion": "Trastorno de estrés postraumático"
+        },
+        "gravedad": "Moderada",
+        "tipoIntervencion": "Terapia EMDR",
+        "correo": "luisa.rodriguez@example.com",
+        "telefono": "123-456-7890"
+      },
+      {
+        "key": "4",
+        "nombre": "Pedro Gómez",
+        "dx": {
+          "codigoCIE10": "F32.1",
+          "descripcion": "Depresión mayor"
+        },
+        "gravedad": "Severa",
+        "tipoIntervencion": "Terapia cognitiva",
+        "correo": "pedro.gomez@example.com",
+        "telefono": "123-456-7890"
+      },
+      {
+        "key": "5",
+        "nombre": "Laura Fernández",
+        "dx": {
+          "codigoCIE10": "F41.0",
+          "descripcion": "Trastorno de pánico"
+        },
+        "gravedad": "Leve",
+        "tipoIntervencion": "Terapia de exposición",
+        "correo": "laura.fernandez@example.com",
+        "telefono": "123-456-7890"
+      }
+    ]
+  }
+   
