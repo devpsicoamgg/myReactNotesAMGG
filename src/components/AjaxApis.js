@@ -17,8 +17,6 @@ function Nasa(props) {
     );
   }
   
-
-
   export default class AjaxApis extends Component {
     state = {
       foto: "",
@@ -47,7 +45,6 @@ function Nasa(props) {
   
     render() {
       const { foto, explanation, showContent } = this.state;
-  
       return (
         <>
             <h2> CONSUMO DE API DE LA <img src={NasaFoto} alt={"nasa foto"} style={{ width: "3%" }} /> - FOTO DEL DÍA </h2>
