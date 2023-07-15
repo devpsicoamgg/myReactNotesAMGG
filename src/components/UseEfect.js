@@ -17,7 +17,7 @@ const AlertaEnEnter = () => {
   }, []); 
   return (
     <>
-        <h2> evento de Tecla y alerta con cada cargue</h2>    
+        <h2> evento de Tecla y alerta con primer cargue</h2>    
       <p>Presiona la tecla Enter</p>
     </>
   );
