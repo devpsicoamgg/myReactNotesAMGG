@@ -1,27 +1,36 @@
-import React, { useState } from "react"; 
+import React, { useState, useEffect } from "react"; 
   
- export default function ContadorHooks(props) { 
-   const [contador, setContador] = useState(0); 
-   //console.log(useState()); 
+ function Reloj({ hora }) { 
+   return <h3>{hora}</h3>; 
+ } 
   
-   const sumar = () => setContador(contador + 1); 
+ export default function RelojHooks() { 
+   const [hora, setHora] = useState(new Date().toLocaleTimeString()); 
+   const [visible, setVisible] = useState(false); 
   
-   const restar = () => setContador(contador - 1); 
+   useEffect(() => { 
+     let temporizador; 
+  
+     if (visible) { 
+       temporizador = setInterval(() => { 
+         setHora(new Date().toLocaleTimeString()); 
+       }, 1000); 
+     } else { 
+       clearInterval(temporizador); 
+     } 
+  
+     return () => { 
+       //console.log("Fase de Desmontaje"); 
+       clearInterval(temporizador); 
+     }; 
+   }, [visible]); 
   
    return ( 
      <> 
-       <h2>Hooks - useState</h2> 
-       <nav> 
-         <button onClick={sumar}>+</button> 
-         <button onClick={restar}>-</button> 
-       </nav> 
-       <p>Contador de {props.titulo}</p> 
-       <h3>{contador}</h3> 
-       <input type="text" /> 
+       <h2>Reloj con Hooks</h2> 
+       {visible && <Reloj hora={hora} />} 
+       <button onClick={() => setVisible(true)}>iniciar</button> 
+       <button onClick={() => setVisible(false)}>detener</button> 
      </> 
    ); 
- } 
-  
- ContadorHooks.defaultProps = { 
-   titulo: "Clicks", 
- };
+ }
