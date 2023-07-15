@@ -1,44 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-export default function ContadorHooks() {
-  const [contador, setContador] = useState(0);
-  const [texto, setTexto] = useState('');
-
-  const suma = () => setContador(contador + 1);
-  const resta = () => setContador(contador - 1);
-
+const AlertaEnEnter = () => {
   useEffect(() => {
-    const handleInputChange = (event) => {
-      setTexto(event.target.value);
+    const handleKeyDown = (event) => {
+      if (event.key === 'Enter') {
+        alert('SE PRESIONÓ');
+        window.removeEventListener('keydown', handleKeyDown);
+      }
     };
 
-    document.addEventListener('input', handleInputChange);
+    window.addEventListener('keydown', handleKeyDown);
 
     return () => {
-      document.removeEventListener('input', handleInputChange);
+      window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []); // Empty dependency array to run effect only once
-
+  }, []); 
   return (
     <>
-      <h2>Hooks</h2>
-      <nav>
-        <button onClick={resta}>
-          <strong>➖</strong>
-        </button>
-        <button onClick={suma}>
-          <strong>➕</strong>
-        </button>
-        <h3>{contador}</h3>
-        <input
-          type="text"
-          value={texto}
-          onChange={(event) => setTexto(event.target.value)}
-          placeholder="✍🏿 una frase..."
-        />
- <h4>  {texto} </h4> 
-      </nav>
+        <h2> evento de Tecla y alerta con cada cargue</h2>    
+      <p>Presiona la tecla Enter</p>
     </>
   );
-}
+};
+
+export default AlertaEnEnter;
 

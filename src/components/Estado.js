@@ -30,6 +30,7 @@ export default class Estado extends Component {
     </p>
     <p> {this.state.contador} </p> 
     <p> Ejemplo con setInterval para ver función pero genera error </p>   
+
     </div> </> 
     );
     }

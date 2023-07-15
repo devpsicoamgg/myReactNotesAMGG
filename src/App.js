@@ -10,8 +10,9 @@ import Padre from "./components/ComunicacionEntreComponentes.js";
 import CicloDeVida from "./components/CicloVida.js";
 import AjaxApis from "./components/AjaxApis.js";
 import Pokemon from "./components/Pokemon.js";
-
-
+import Hooks from "./components/Hooks.js";
+import ContadorHooks from "./components/UseEstate.js"
+import ScrollHooks from "./components/UseEfect.js";
 
 function App() {
   return (
@@ -109,6 +110,83 @@ function App() {
 <details> <summary> 10B.- PETICIONES ASINCRONAS EN COMPONENTES DE CLASE - Versión NASA </summary>
 <section className="peticiones-apis"> 
           <AjaxApis />
+          <hr></hr>
+        </section>
+</details>
+
+<details> <summary> 11.- HOOKS </summary>
+<section className="hooks"> 
+          <Hooks />
+          <hr></hr>
+        </section>
+</details>
+
+<details> <summary> 12.- HOOK 👉🏽👉🏼 <i> useState </i> </summary>
+<section className="use-efect"> 
+          <ContadorHooks />
+          <hr></hr>
+        </section>
+</details>
+
+<details> <summary> xx.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
+<section className="use-estate"> 
+          <ScrollHooks />
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> xx.- PETICIONES ASÍNCRONAS CON HOOKS </summary>
+<section className="peticionesasincronas-apis"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> XX.- CUSTOM HOOKS </summary>
+<section className="custom-hooks"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> XX.- FORMULARIOS </summary>
+<section className="formularios"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> XX.- CSS STYLES </summary>
+<section className="cssstyles"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> XX.- STYLED COMPONENTS </summary>
+<section className="styled-components"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> xx.- Frameworks </summary>
+<section className="frameworks"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> xx.- React Boostrap Material UI </summary>
+<section className="boostrap"> 
+          
+          <hr></hr>
+        </section>
+</details>
+        
+<details> <summary> xx.- DevTools & Snippets </summary>
+<section className="dev.tools"> 
+          
           <hr></hr>
         </section>
 </details>
