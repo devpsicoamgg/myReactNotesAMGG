@@ -11,8 +11,9 @@ import CicloDeVida from "./components/CicloVida.js";
 import AjaxApis from "./components/AjaxApis.js";
 import Pokemon from "./components/Pokemon.js";
 import Hooks from "./components/Hooks.js";
-import ContadorHooks from "./components/UseEstate.js"
-import ScrollHooks from "./components/UseEfect.js";
+import RelojHooks from "./components/HooksRelog.js"
+import ContadorHooks from "./components/HooksRelog.js"
+import AlertaEnEnter from "./components/UseEfect.js";
 
 function App() {
   return (
@@ -130,7 +131,14 @@ function App() {
 
 <details> <summary> xx.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
 <section className="use-estate"> 
-          <ScrollHooks />
+          <AlertaEnEnter />
+          <hr></hr>
+        </section>
+</details>
+
+<details> <summary> xx.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
+<section className="use-estate"> 
+          <RelojHooks />
           <hr></hr>
         </section>
 </details>
