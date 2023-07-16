@@ -42,9 +42,9 @@
 </details>
 --- 
   <h3>3. Propiedades</h3>
-  <p>Aquí se muestra cómo pasar propiedades o datos a los componentes de React. El componente <code>Propiedades.js</code> demuestra diferentes tipos de propiedades que se pueden utilizar, como cadenas de texto, números, booleanos, arreglos y objetos. Además, se muestra cómo acceder a estas propiedades dentro del componente.</p>
+  
   <details>
-  <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻 </code></summary>
+  <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> Aquí se muestra cómo pasar propiedades o datos a los componentes de React. El componente <code>Propiedades.js</code> demuestra diferentes tipos de propiedades que se pueden utilizar, como cadenas de texto, números, booleanos, arreglos y objetos. Además, se muestra cómo acceder a estas propiedades dentro del componente. </code> <br> </br>
   <ol>
     <li>Importación de la biblioteca <code>React</code>.</li>
     <li>Declaración de una función llamada <code>Propiedades</code> que representa el componente funcional.</li>
@@ -57,12 +57,12 @@
 --- 
 
   <h3>4. Estados</h3>
-  <p>En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario.</p>
-
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻 </code>
-  </summary>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary>
+En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. 
+ </code> <br> </br>
+  
   <<ul>
     <li>Se importa la biblioteca React y el módulo Component desde React.</li>
     <li>Se define la clase "<code>Estado</code>" que extiende la clase "<code>Component</code>" de React.</li>
@@ -78,12 +78,14 @@
  ---
    
   <h3>5. Renderizado Condicional</h3>
-  <p>Esta sección muestra cómo renderizar componentes de forma condicional en React. </p>
+  
 
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻 </code>
-  </summary>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary>
+Esta sección muestra cómo renderizar componentes de forma condicional en React.
+ </code> <br> </br>
+
   <ul>
   <ul>
     <li>Se importa la biblioteca React y se importan los componentes "<code>LoggIn</code>" y "<code>LogOut</code>".</li>
