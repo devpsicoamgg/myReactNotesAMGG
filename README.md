@@ -76,6 +76,61 @@
   </ul>
 </details>
  <hr> </hr>
+   
+  <h3>5. Renderizado Condicional</h3>
+  <p>Esta sección muestra cómo renderizar componentes de forma condicional en React. </p>
 
-  <h2>5. Renderizado Condicional</h2>
-  <p>Esta sección muestra cómo renderizar componentes de forma condicional en React.
+<details>
+  <summary>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻 </code>
+  </summary>
+  <ul>
+  <ul>
+    <li>Se importa la biblioteca React y se importan los componentes "<code>LoggIn</code>" y "<code>LogOut</code>".</li>
+    <li>Se define el componente "<code>LoggIn</code>" que muestra un mensaje de inicio de sesión.</li>
+    <li>Se define el componente "<code>LogOut</code>" que muestra un mensaje de cierre de sesión.</li>
+    <li>Se exporta el componente "<code>RenderizadoCondicional</code>" que es una clase de React que extiende la clase "<code>Component</code>".</li>
+    <li>En el constructor de la clase, se inicializa el estado con una propiedad llamada "<code>sesion</code>" con el valor inicial de "<code>true</code>".</li>
+    <li>Se define el método "<code>handleChange</code>" que se ejecuta cuando se cambia el valor del input y actualiza el estado "<code>sesion</code>" según el valor ingresado.</li>
+    <li>En el método "<code>render</code>", se utiliza una expresión ternaria para renderizar el componente "<code>LoggIn</code>" o "<code>LogOut</code>" dependiendo del valor del estado "<code>sesion</code>".</li>
+    <li>Se muestra un input de texto donde se puede introducir "<code>true</code>" o "<code>false</code>" para cambiar el estado "<code>sesion</code>" y ver el renderizado condicional en acción.</li>
+  </ul>
+</details>
+<hr></hr>
+<h3>6.</h3>
+
+
+<hr></hr>
+<h3>7.</h3>
+
+
+<hr></hr>
+<h3>8.</h3>
+
+
+<hr></hr>
+<h3>9.</h3>
+
+
+<hr></hr>
+<h3>10.</h3>
+
+
+<hr></hr>
+<h3>11.</h3>
+
+
+<hr></hr>
+<h3>12.</h3>
+
+
+<hr></hr>
+<h3>13.</h3>
+
+
+<hr></hr>
+<h3>14.</h3>
+
+<hr></hr>
+<h3>15.</h3>
+<hr></hr>
