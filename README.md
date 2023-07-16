@@ -22,10 +22,9 @@
 ---
 
   <h3>2. Componentes Funcionales</h3>
-  <p>En esta sección se presenta un componente implementado como una función de React. Los componentes funcionales son la forma moderna de crear componentes en React y se utilizan ampliamente en el desarrollo actual. El ejemplo muestra cómo se define y utiliza. </p>
 
   <details>
-  <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻</code></summary>
+  <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻<br> </br> En esta sección se presenta un componente implementado como una función de React. Los componentes funcionales son la forma moderna de crear componentes en React y se utilizan ampliamente en el desarrollo actual. El ejemplo muestra cómo se define y utiliza.</code></summary> <br> </br>
   <ol>
     <li>Se importó la biblioteca <code>React</code>.</li>
     <li>Se definió un componente funcional llamado <code>Propiedades</code>.</li>
