@@ -120,7 +120,7 @@
 <h3>15.</h3>
 <hr></hr>
    <div align="right">
-<p align="right"> Made with a &#128153; filled with lots of love that comes from 👉🏽 <img src="https://media3.giphy.com/media/fihL7vZxPq5kwB89mH/200.gif" title="REACT" alt="REACT" width="40" height="40"/>   </p> 
+<p align="right"> Made with &#128153; plenty of blue love that comes from 👉🏽 <img src="https://media3.giphy.com/media/fihL7vZxPq5kwB89mH/200.gif" title="REACT" alt="REACT" width="40" height="40"/>   </p> 
   <em><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright">Copyright &#169 devpsicoamgg</a> </sup></em>
   <br>
   <em><a href="https://www.mozilla.org/en-US/about/manifesto/">Manifesto MDN</a></em>
