@@ -14,6 +14,8 @@ import Hooks from "./components/Hooks.js";
 import RelojHooks from "./components/HooksRelog.js"
 import ContadorHooks from "./components/HooksRelog.js"
 import AlertaEnEnter from "./components/UseEfect.js";
+import AjaxHooks from "./components/AjaxHooks.js";
+import HooksPersonalizados from "./components/HooksPersonalizados.js";
 
 function App() {
   return (
@@ -143,16 +145,16 @@ function App() {
         </section>
 </details>
         
-<details> <summary> xx.- PETICIONES ASÍNCRONAS CON HOOKS </summary>
+<details> <summary> xx.- PETICIONES ASÍNCRONAS CON HOOKS - RICK AND MORTY </summary>
 <section className="peticionesasincronas-apis"> 
-          
+          <AjaxHooks />
           <hr></hr>
         </section>
 </details>
         
 <details> <summary> XX.- CUSTOM HOOKS </summary>
 <section className="custom-hooks"> 
-          
+          <HooksPersonalizados />
           <hr></hr>
         </section>
 </details>
