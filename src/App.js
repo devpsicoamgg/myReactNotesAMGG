@@ -16,6 +16,8 @@ import ContadorHooks from "./components/HooksRelog.js"
 import AlertaEnEnter from "./components/UseEfect.js";
 import AjaxHooks from "./components/AjaxHooks.js";
 import HooksPersonalizados from "./components/HooksPersonalizados.js";
+import Formularios from "./components/Formularios.js";
+
 
 function App() {
   return (
@@ -159,9 +161,16 @@ function App() {
         </section>
 </details>
         
+        
+<details> <summary> XX.- REFERENCIAS </summary>
+<section className="referencias"> 
+          <hr></hr>
+        </section>
+</details>
+        
 <details> <summary> XX.- FORMULARIOS </summary>
-<section className="formularios"> 
-          
+<section className="formularios">           
+          <Formularios />
           <hr></hr>
         </section>
 </details>
