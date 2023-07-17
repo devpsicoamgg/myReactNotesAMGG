@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class CicloDeVida extends Component {
   constructor(props) {
     super(props);
-    console.log(0, "EL COMPONENTE SE INICIALIZA, AUN NO ESTA EN EL DOM");
+//    console.log(0, "EL COMPONENTE SE INICIALIZA, AUN NO ESTA EN EL DOM");
     this.state = {
       fecha: new Date().toLocaleDateString(),
       hora: new Date().toLocaleTimeString(),
@@ -13,13 +13,13 @@ export default class CicloDeVida extends Component {
 
   componentDidMount() {
     this.detener();
-    console.log(1, "EL COMPONENTE YA ESTÁ EN EL DOM");
+//    console.log(1, "EL COMPONENTE YA ESTÁ EN EL DOM");
   }
 
   componentDidUpdate(prevProv, prevState) {
-    console.log(2, "EL ESTADO HA CAMBIADO");
-    console.log(prevProv);
-    console.log(prevState);
+//   console.log(2, "EL ESTADO HA CAMBIADO");
+//  console.log(prevProv);
+// console.log(prevState);
   }
 
   tictac = () => {
@@ -39,7 +39,7 @@ export default class CicloDeVida extends Component {
   };
 
   render() {
-    console.log(4, "EL COMPONENTE SE DIBUJA O REDIBUJA");
+ //   console.log(4, "EL COMPONENTE SE DIBUJA O REDIBUJA");
     return (
       <>
         <ol>
