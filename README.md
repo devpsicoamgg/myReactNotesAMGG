@@ -114,11 +114,11 @@
     En React, los eventos son objetos que se pasan como parámetros a las funciones de controlador de eventos. Estos objetos contienen información sobre el evento que ocurrió, como el tipo de evento, el elemento objetivo y los datos relevantes asociados. Al definir funciones de controlador de eventos en los componentes de React, podemos responder a las acciones del usuario y actualizar el estado del componente o realizar otras operaciones. <br /> <br />
     Algunos ejemplos de eventos en React incluyen: <br /> <br />
 <ol>
-    <li> onClick: Se dispara cuando se hace clic en un elemento. </li>  <br />
-    <li> onChange: Se dispara cuando el valor de un elemento cambia, como un campo de texto o una casilla de verificación. </li>  <br />
-    <li> onSubmit: Se dispara cuando se envía un formulario. </li>  <br />
-    <li> onMouseOver: Se dispara cuando el puntero del mouse se mueve sobre un elemento. </li>  <br />
-    <li> onKeyDown: Se dispara cuando una tecla se presiona mientras un elemento tiene el foco.</code> </li>  
+<code> <li> onClick: Se dispara cuando se hace clic en un elemento. </li> </code> <br />
+<code> <li> onChange: Se dispara cuando el valor de un elemento cambia, como un campo de texto o una casilla de verificación. </li> </code> <br />
+<code> <li> onSubmit: Se dispara cuando se envía un formulario. </li> </code> <br />
+<code> <li> onMouseOver: Se dispara cuando el puntero del mouse se mueve sobre un elemento. </li> </code> <br />
+<code> <li> onKeyDown: Se dispara cuando una tecla se presiona mientras un elemento tiene el foco.</li> </code> </code>  <br />
 </ol>
 <ol>
   <li>Se importa <code>React</code> y <code>Component</code> desde el paquete "react".</li>
