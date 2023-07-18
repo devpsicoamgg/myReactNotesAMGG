@@ -17,6 +17,7 @@ import AlertaEnEnter from "./components/UseEfect.js";
 import AjaxHooks from "./components/AjaxHooks.js";
 import HooksPersonalizados from "./components/HooksPersonalizados.js";
 import Formularios from "./components/Formularios.js";
+import Snippets from "./components/Snippets.js";
 
 
 function App() {
@@ -133,28 +134,28 @@ function App() {
         </section>
 </details>
 
-<details> <summary> xx.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
+<details> <summary> 13.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
 <section className="use-estate"> 
           <AlertaEnEnter />
           <hr></hr>
         </section>
 </details>
 
-<details> <summary> xx.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
+<details> <summary> 14.- HOOK 👉🏽👉🏼 <i> useEffect </i> </summary>
 <section className="use-estate"> 
           <RelojHooks />
           <hr></hr>
         </section>
 </details>
         
-<details> <summary> xx.- PETICIONES ASÍNCRONAS CON HOOKS - RICK AND MORTY </summary>
+<details> <summary> 15.- PETICIONES ASÍNCRONAS CON HOOKS - RICK AND MORTY </summary>
 <section className="peticionesasincronas-apis"> 
           <AjaxHooks />
           <hr></hr>
         </section>
 </details>
         
-<details> <summary> XX.- CUSTOM HOOKS </summary>
+<details> <summary> 16.- CUSTOM HOOKS </summary>
 <section className="custom-hooks"> 
           <HooksPersonalizados />
           <hr></hr>
@@ -162,50 +163,31 @@ function App() {
 </details>
         
         
-<details> <summary> XX.- REFERENCIAS </summary>
+<details> <summary> xx.- REFERENCIAS </summary>
 <section className="referencias"> 
           <hr></hr>
         </section>
 </details>
         
-<details> <summary> XX.- FORMULARIOS </summary>
+<details> <summary> 18.- FORMULARIOS </summary>
 <section className="formularios">           
           <Formularios />
           <hr></hr>
         </section>
 </details>
         
-<details> <summary> XX.- CSS STYLES </summary>
+<details> <summary> 19.- CSS STYLES </summary>
 <section className="cssstyles"> 
           
           <hr></hr>
         </section>
 </details>
         
-<details> <summary> XX.- STYLED COMPONENTS </summary>
-<section className="styled-components"> 
-          
-          <hr></hr>
-        </section>
-</details>
+
         
-<details> <summary> xx.- Frameworks </summary>
-<section className="frameworks"> 
-          
-          <hr></hr>
-        </section>
-</details>
-        
-<details> <summary> xx.- React Boostrap Material UI </summary>
-<section className="boostrap"> 
-          
-          <hr></hr>
-        </section>
-</details>
-        
-<details> <summary> xx.- DevTools & Snippets </summary>
+<details> <summary> 20.- Snippets Simple React Snippets </summary>
 <section className="dev.tools"> 
-          
+          <Snippets />           
           <hr></hr>
         </section>
 </details>

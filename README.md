@@ -1,12 +1,12 @@
-<body>
-  <div class="container">
+<div class="container">
     <h1 align="center">MIS APUNTES 📝 DE <img src="https://media3.giphy.com/media/CuIm1Mi2xGhfa5vu2L/giphy.gif" title="REACT" alt="REACT" width="100" height="30" /></h1>
   </div>
-</body>
+
 
   <p>Este proyecto fue realizado para fortalecer mis conocimientos en React, abordando los temas más importantes de este versatil Framework. Me he guiado por el canal de youtube  
   <a href="https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer"> ReactJS - Jonathan Mircha </a>,  
   <a href="https://es.react.dev/" target="_blank" rel="noopener noreferrer"> documentación oficial de React </a> además de <a href="https://www.reactjs.wiki/" target="_blank" rel="noopener noreferrer"> React-Js-Wiki preguntas & respuestas (comunidad de midulive) </a> </p>
+
 ---
   <h3>1. Componentes con Clase</h3>
   <details> <summary><code> 🔽¿Qué se hizo y cómo se hizo? 🔽</summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
@@ -22,7 +22,6 @@
 ---
 
   <h3>2. Componentes Funcionales</h3>
-
   <details>
   <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> En esta sección se presenta un componente implementado como una función de React. Los componentes funcionales son la forma moderna de crear componentes en React y se utilizan ampliamente en el desarrollo actual. El ejemplo muestra cómo se define y utiliza.</code><br> </br>
   <ol>
@@ -40,9 +39,9 @@
     <li>Se definen valores predeterminados para las <code>props</code> utilizando <code>Propiedades.defaultProps</code>.</li>
   </ol>
 </details>
---- 
-  <h3>3. Propiedades</h3>
-  
+---
+ 
+  <h3>3. Propiedades</h3>  
   <details>
   <summary><code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> Aquí se muestra cómo pasar propiedades o datos a los componentes de React. El componente <code>Propiedades.js</code> demuestra diferentes tipos de propiedades que se pueden utilizar, como cadenas de texto, números, booleanos, arreglos y objetos. Además, se muestra cómo acceder a estas propiedades dentro del componente. </code> <br> </br>
   <ol>
@@ -60,7 +59,6 @@
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. </code> <br> </br>
-  
   <ol>
     <li>Se importa la biblioteca React y el módulo Component desde React.</li>
     <li>Se define la clase "<code>Estado</code>" que extiende la clase "<code>Component</code>" de React.</li>
@@ -79,8 +77,6 @@
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> <br> </br>
-
- 
   <ul>
     <li>Se importa la biblioteca React y se importan los componentes "<code>LoggIn</code>" y "<code>LogOut</code>".</li>
     <li>Se define el componente "<code>LoggIn</code>" que muestra un mensaje de inicio de sesión.</li>
@@ -93,7 +89,8 @@
   </ul>
 </details>
 ---
-<h3>6. RENDERIZADO DE ELEMENTOS:  </h3>
+
+  <h3>6. RENDERIZADO DE ELEMENTOS:  </h3>
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> <br> </br>
@@ -108,7 +105,30 @@
     <li>Dentro de cada iteración, se instancia el componente <code>ElementoLista</code>, pasándole las propiedades del elemento actual y una clave única utilizando la propiedad <code>key</code>. Esto permitirá renderizar múltiples elementos <code>ElementoLista</code> con los datos simulados de los pacientes.</li>
   </ul>
 ---
-<h3>7.</h3>
+
+<h3>7. EVENTOS </h3>
+<details>
+  <summary>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> . </code> <br> </br>
+<ol>
+  <li>Se importa <code>React</code> y <code>Component</code> desde el paquete "react".</li>
+  <li>Se define la clase de componente <code>EventosesES6</code> que hereda de <code>Component</code>.</li>
+  <li>En el constructor de <code>EventosesES6</code>, se inicializa el estado del componente con un contador y un campo de texto vacío.</li>
+  <li>Los métodos <code>sumar</code>, <code>restar</code> y <code>handleChange</code> se enlazan con el contexto <code>this</code> utilizando <code>bind</code>.</li>
+  <li>En el método <code>render()</code>, se devuelve el JSX que se va a renderizar en el DOM.</li>
+  <li>Se asignan eventos a los botones y al input utilizando los atributos <code>onClick</code> y <code>onChange</code>. Estos eventos están asociados a los métodos correspondientes: <code>restar</code>, <code>sumar</code> y <code>handleChange</code>.</li>
+  <li>Los métodos <code>sumar</code>, <code>restar</code> y <code>handleChange</code> actualizan el estado del componente utilizando <code>setState</code>.</li>
+  <li>Se define la clase de componente <code>EventosesES7</code> que también hereda de <code>Component</code>.</li>
+  <li>En lugar de utilizar un constructor, se utiliza la sintaxis de inicialización de estado de clase para definir el estado del componente.</li>
+  <li>Los métodos <code>multiplicar</code> y <code>dividir</code> se definen utilizando arrow functions. Estos métodos actualizan el estado del componente mediante <code>setState</code>.</li>
+  <li>En el método <code>render()</code> de <code>EventosesES7</code>, se devuelve el JSX correspondiente.</li>
+  <li>Se define el componente funcional <code>Boton</code>, que recibe <code>myOnClick</code> como una prop y muestra un botón.</li>
+  <li>Se define la clase de componente <code>MasSobreEventos</code>.</li>
+  <li>El método <code>handleClick</code> se define para mostrar un mensaje en la consola cuando se produce un evento.</li>
+  <li>En el método <code>render()</code> de <code>MasSobreEventos</code>, se devuelve el JSX correspondiente.</li>
+  <li>Se utiliza el evento <code>onClick</code> en un botón para llamar a <code>handleClick</code> con un mensaje como parámetro.</li>
+  <li>También se utiliza el componente <code>Boton</code>, pasando <code>handleClick</code> como prop <code>myOnClick</code>.</li>
+</ol>
 ---
 <h3>8.</h3>
 ---
