@@ -109,8 +109,7 @@
 <h3>7. EVENTOS </h3>
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> . 
-    Los eventos son acciones o interacciones que ocurren en los elementos de la interfaz de usuario, como hacer clic en un botón, escribir en un campo de texto o desplazarse por una lista. Los eventos en React son muy similares a los eventos en HTML y JavaScript, pero tienen algunas diferencias y características específicas de React. <br />
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> Los eventos son acciones o interacciones que ocurren en los elementos de la interfaz de usuario, como hacer clic en un botón, escribir en un campo de texto o desplazarse por una lista. Los eventos en React son muy similares a los eventos en HTML y JavaScript, pero tienen algunas diferencias y características específicas de React. <br />
     En React, los eventos son objetos que se pasan como parámetros a las funciones de controlador de eventos. Estos objetos contienen información sobre el evento que ocurrió, como el tipo de evento, el elemento objetivo y los datos relevantes asociados. Al definir funciones de controlador de eventos en los componentes de React, podemos responder a las acciones del usuario y actualizar el estado del componente o realizar otras operaciones. <br /> <br />
     Algunos ejemplos de eventos en React incluyen: a) onClick, b) onChange, c) onSubmit, d) onMouseOver, o e) onKeyDown </code> <br /> <br />
 <ol>
