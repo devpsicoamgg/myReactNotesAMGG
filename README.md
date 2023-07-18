@@ -59,11 +59,9 @@
   <h3>4. Estados</h3>
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary>
-En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. 
- </code> <br> </br>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. </code> <br> </br>
   
-  <<ul>
+  <ol>
     <li>Se importa la biblioteca React y el módulo Component desde React.</li>
     <li>Se define la clase "<code>Estado</code>" que extiende la clase "<code>Component</code>" de React.</li>
     <li>Se implementa el constructor de la clase donde se inicializa el estado con la propiedad "<code>contador</code>" y el valor de 0.</li>
@@ -73,20 +71,16 @@ En esta sección se explora el concepto de estados en React. El componente <code
     <li>Se muestra el valor del estado "<code>contador</code>" en un párrafo utilizando "<code>{this.state.contador}</code>".</li>
     <li>Se comenta el código que utiliza "<code>setInterval</code>" para incrementar el valor del contador cada segundo debido a que genera un error en este contexto de componente de clase.</li>
     <li>Se exporta el componente "<code>Estado</code>" para poder ser utilizado en otros archivos de la aplicación.</li>
-  </ul>
+  </ol>
 </details>
  ---
    
-  <h3>5. Renderizado Condicional</h3>
-  
-
+  <h3>5. RENDERIZADO CONDICIONAL: </h3>
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary>
-Esta sección muestra cómo renderizar componentes de forma condicional en React.
- </code> <br> </br>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> <br> </br>
 
-  <ul>
+ 
   <ul>
     <li>Se importa la biblioteca React y se importan los componentes "<code>LoggIn</code>" y "<code>LogOut</code>".</li>
     <li>Se define el componente "<code>LoggIn</code>" que muestra un mensaje de inicio de sesión.</li>
@@ -99,7 +93,20 @@ Esta sección muestra cómo renderizar componentes de forma condicional en React
   </ul>
 </details>
 ---
-<h3>6.</h3>
+<h3>6. RENDERIZADO DE ELEMENTOS:  </h3>
+<details>
+  <summary>
+    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> <br> </br>
+     <ul>
+    <li>Se crea un archivo JSON llamado <code>Data.json</code> que contiene datos de pacientes de psicología. Este archivo simula una estructura de datos con información relevante sobre los pacientes, como nombre, diagnóstico, gravedad y tipo de intervención.</li>
+    <li>Se importa el módulo <code>Data.json</code> en el archivo de código.</li>
+    <li>Se define el componente funcional <code>ElementoLista</code> que recibe las propiedades y muestra los datos recibidos en elementos de presentación.</li>
+    <li>Se define el componente de clase <code>RenderizadoElementos</code> que extiende la clase Component de React.</li>
+    <li>Dentro del componente <code>RenderizadoElementos</code>, se implementa el método <code>render()</code> que devuelve el contenido JSX que será renderizado en la interfaz de usuario.</li>
+    <li>Se utiliza el archivo JSON importado para acceder a la propiedad <code>ejemplos</code>, que contiene los datos simulados de los pacientes de psicología.</li>
+    <li>Se utiliza el método <code>map</code> en la propiedad <code>ejemplos</code> del objeto importado para iterar sobre los elementos del arreglo.</li>
+    <li>Dentro de cada iteración, se instancia el componente <code>ElementoLista</code>, pasándole las propiedades del elemento actual y una clave única utilizando la propiedad <code>key</code>. Esto permitirá renderizar múltiples elementos <code>ElementoLista</code> con los datos simulados de los pacientes.</li>
+  </ul>
 ---
 <h3>7.</h3>
 ---
