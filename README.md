@@ -6,7 +6,7 @@
   <a href="https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer"> ReactJS - Jonathan Mircha </a>,  
   <a href="https://es.react.dev/" target="_blank" rel="noopener noreferrer"> documentación oficial de React </a> además de <a href="https://www.reactjs.wiki/" target="_blank" rel="noopener noreferrer"> React-Js-Wiki preguntas & respuestas (comunidad de midulive) </a> </p>
   
-  <details> <summary><code> <h3> 🔻 1. Componentes con Clase 🔻</h3> </summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
+  <details> <summary><code>🔻<h3>1. Componentes con Clase</h3>🔻</summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
   <ol>
     <li>Se importó la biblioteca <code>React</code> y se importaron las imágenes necesarias para su uso en el componente.</li>
     <li>Se definió una función llamada <code>ComponenteDos</code> que representa el componente funcional.</li>
@@ -17,7 +17,7 @@
   </ol>
 </details>
   
-  <details> <summary><code> <h3> 🔻 2. Componentes Funcionales 🔻 </h3> </summary> En esta sección se presenta un componente implementado como una función de React. Los componentes funcionales son la forma moderna de crear componentes en React y se utilizan ampliamente en el desarrollo actual. El ejemplo muestra cómo se define y utiliza.</code><br> </br>
+  <details> <summary><code>🔻<h3>2. Componentes Funcionales </h3>🔻</summary> En esta sección se presenta un componente implementado como una función de React. Los componentes funcionales son la forma moderna de crear componentes en React y se utilizan ampliamente en el desarrollo actual. El ejemplo muestra cómo se define y utiliza.</code><br> </br>
   <ol>
     <li>Se importó la biblioteca <code>React</code>.</li>
     <li>Se definió un componente funcional llamado <code>Propiedades</code>.</li>
@@ -34,7 +34,7 @@
   </ol>
 </details>
     
-  <details> <summary><code> 🔻<h3>3. Propiedades</h3> 🔻</summary> Aquí se muestra cómo pasar propiedades o datos a los componentes de React. El componente <code>Propiedades.js</code> demuestra diferentes tipos de propiedades que se pueden utilizar, como cadenas de texto, números, booleanos, arreglos y objetos. Además, se muestra cómo acceder a estas propiedades dentro del componente. </code> <br> </br>
+  <details> <summary><code>🔻<h3>3. Propiedades</h3>🔻</summary> Aquí se muestra cómo pasar propiedades o datos a los componentes de React. El componente <code>Propiedades.js</code> demuestra diferentes tipos de propiedades que se pueden utilizar, como cadenas de texto, números, booleanos, arreglos y objetos. Además, se muestra cómo acceder a estas propiedades dentro del componente. </code> <br> </br>
   <ol>
     <li>Importación de la biblioteca <code>React</code>.</li>
     <li>Declaración de una función llamada <code>Propiedades</code> que representa el componente funcional.</li>
@@ -45,7 +45,7 @@
   </ol>
 </details>
   
-<details> <summary> <code> 🔻<h3>4. ESTADOS </h3> 🔻</summary> En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. </code> <br> </br>
+<details> <summary> <code>🔻<h3>4. ESTADOS </h3>🔻</summary> En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. </code> <br> </br>
   <ol>
     <li>Se importa la biblioteca React y el módulo Component desde React.</li>
     <li>Se define la clase "<code>Estado</code>" que extiende la clase "<code>Component</code>" de React.</li>
@@ -59,7 +59,7 @@
   </ol>
 </details> 
    
-<details> <summary> <code> 🔻<h3>5. RENDERIZADO CONDICIONAL </h3>  🔻  </summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> <br> </br>
+<details> <summary> <code>🔻<h3>5. RENDERIZADO CONDICIONAL</h3>🔻</summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> <br> </br>
   <ul>
     <li>Se importa la biblioteca React y se importan los componentes "<code>LoggIn</code>" y "<code>LogOut</code>".</li>
     <li>Se define el componente "<code>LoggIn</code>" que muestra un mensaje de inicio de sesión.</li>
@@ -72,10 +72,7 @@
   </ul>
 </details>
 
-  <h3>6. RENDERIZADO DE ELEMENTOS  </h3>
-<details>
-  <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> <br> </br>
+  <details> <summary> <code> 🔻<h3>6. RENDERIZADO DE ELEMENTOS  </h3>  🔻  </summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> <br> </br>
      <ul>
     <li>Se crea un archivo JSON llamado <code>Data.json</code> que contiene datos de pacientes de psicología. Este archivo simula una estructura de datos con información relevante sobre los pacientes, como nombre, diagnóstico, gravedad y tipo de intervención.</li>
     <li>Se importa el módulo <code>Data.json</code> en el archivo de código.</li>
