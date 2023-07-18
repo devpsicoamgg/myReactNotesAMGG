@@ -7,7 +7,6 @@
   <a href="https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer"> ReactJS - Jonathan Mircha </a>,  
   <a href="https://es.react.dev/" target="_blank" rel="noopener noreferrer"> documentación oficial de React </a> además de <a href="https://www.reactjs.wiki/" target="_blank" rel="noopener noreferrer"> React-Js-Wiki preguntas & respuestas (comunidad de midulive) </a> </p>
 
----
   <h3>1. Componentes con Clase</h3>
   <details> <summary><code> 🔽¿Qué se hizo y cómo se hizo? 🔽</summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
   <ol>
@@ -19,7 +18,6 @@
     <li>Al final del código, se exportó el componente <code>ComponenteDos</code> utilizando la sintaxis <code>export default ComponenteDos</code>.</li>
   </ol>
 </details>
----
 
   <h3>2. Componentes Funcionales</h3>
   <details>
@@ -39,7 +37,6 @@
     <li>Se definen valores predeterminados para las <code>props</code> utilizando <code>Propiedades.defaultProps</code>.</li>
   </ol>
 </details>
----
  
   <h3>3. Propiedades</h3>  
   <details>
@@ -53,9 +50,8 @@
     <li>Se exporta el componente <code>Propiedades</code> utilizando la sintaxis <code>export default Propiedades</code>.</li>
   </ol>
 </details>
---- 
 
-  <h3>4. Estados</h3>
+  <h3>4. ESTADOS </h3>
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary> En esta sección se explora el concepto de estados en React. El componente <code>Estado.js</code> muestra cómo se puede utilizar el estado en un componente de React para almacenar y manejar datos que pueden cambiar a lo largo del tiempo. También se demuestra cómo actualizar el estado y reflejar los cambios en la interfaz de usuario. </code> <br> </br>
@@ -70,10 +66,9 @@
     <li>Se comenta el código que utiliza "<code>setInterval</code>" para incrementar el valor del contador cada segundo debido a que genera un error en este contexto de componente de clase.</li>
     <li>Se exporta el componente "<code>Estado</code>" para poder ser utilizado en otros archivos de la aplicación.</li>
   </ol>
-</details>
- ---
+</details> 
    
-  <h3>5. RENDERIZADO CONDICIONAL: </h3>
+  <h3>5. RENDERIZADO CONDICIONAL </h3>
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> <br> </br>
@@ -88,9 +83,8 @@
     <li>Se muestra un input de texto donde se puede introducir "<code>true</code>" o "<code>false</code>" para cambiar el estado "<code>sesion</code>" y ver el renderizado condicional en acción.</li>
   </ul>
 </details>
----
 
-  <h3>6. RENDERIZADO DE ELEMENTOS:  </h3>
+  <h3>6. RENDERIZADO DE ELEMENTOS  </h3>
 <details>
   <summary>
     <code> 🔻¿Qué se hizo y cómo se hizo? 🔻  </summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> <br> </br>
@@ -104,7 +98,6 @@
     <li>Se utiliza el método <code>map</code> en la propiedad <code>ejemplos</code> del objeto importado para iterar sobre los elementos del arreglo.</li>
     <li>Dentro de cada iteración, se instancia el componente <code>ElementoLista</code>, pasándole las propiedades del elemento actual y una clave única utilizando la propiedad <code>key</code>. Esto permitirá renderizar múltiples elementos <code>ElementoLista</code> con los datos simulados de los pacientes.</li>
   </ul>
----
 
 <h3>7. EVENTOS </h3>
 <details>
@@ -131,7 +124,6 @@ Algunos ejemplos de eventos en React incluyen: a) onClick, b) onChange, c) onSub
   <li>Se utiliza el evento <code>onClick</code> en un botón para llamar a <code>handleClick</code> con un mensaje como parámetro.</li>
   <li>También se utiliza el componente <code>Boton</code>, pasando <code>handleClick</code> como prop <code>myOnClick</code>.</li>
 </ol>
----
 
 <h3>8.</h3>
 <details>
