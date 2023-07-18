@@ -17,31 +17,13 @@
 <details> <summary> <code>🔻<h3>5. RENDERIZADO CONDICIONAL</h3>🔻</summary> Esta sección muestra cómo renderizar componentes de forma condicional en React. El <code> conditional render </code> se refiere a la capacidad de mostrar o renderizar diferentes elementos o componentes en función de una condición determinada. </code> 
 
 <details> <summary> <code> 🔻<h3>6. RENDERIZADO DE ELEMENTOS  </h3>🔻</summary> proceso mediante el cual se representan y muestran en la interfaz de usuario los elementos o componentes de React. </code> 
-<h3>7. EVENTOS </h3>
+
+
 <details>
   <summary>
-    <code> 🔻¿Qué se hizo y cómo se hizo? 🔻</summary>Los eventos son acciones o interacciones que ocurren en los elementos de la interfaz de usuario, como hacer clic en un botón, escribir en un campo de texto o desplazarse por una lista. Los eventos en React son muy similares a los eventos en HTML y JavaScript, pero tienen algunas diferencias y características específicas de React. <br />
-En React, los eventos son objetos que se pasan como parámetros a las funciones de controlador de eventos. Estos objetos contienen información sobre el evento que ocurrió, como el tipo de evento, el elemento objetivo y los datos relevantes asociados. Al definir funciones de controlador de eventos en los componentes de React, podemos responder a las acciones del usuario y actualizar el estado del componente o realizar otras operaciones. <br /> <br />
-Algunos ejemplos de eventos en React incluyen: a) onClick, b) onChange, c) onSubmit, d) onMouseOver, o e) onKeyDown </code> <br /> <br />
-<ol>
-  <li>Se importa <code>React</code> y <code>Component</code> desde el paquete "react".</li>
-  <li>Se define la clase de componente <code>EventosesES6</code> que hereda de <code>Component</code>.</li>
-  <li>En el constructor de <code>EventosesES6</code>, se inicializa el estado del componente con un contador y un campo de texto vacío.</li>
-  <li>Los métodos <code>sumar</code>, <code>restar</code> y <code>handleChange</code> se enlazan con el contexto <code>this</code> utilizando <code>bind</code>.</li>
-  <li>En el método <code>render()</code>, se devuelve el JSX que se va a renderizar en el DOM.</li>
-  <li>Se asignan eventos a los botones y al input utilizando los atributos <code>onClick</code> y <code>onChange</code>. Estos eventos están asociados a los métodos correspondientes: <code>restar</code>, <code>sumar</code> y <code>handleChange</code>.</li>
-  <li>Los métodos <code>sumar</code>, <code>restar</code> y <code>handleChange</code> actualizan el estado del componente utilizando <code>setState</code>.</li>
-  <li>Se define la clase de componente <code>EventosesES7</code> que también hereda de <code>Component</code>.</li>
-  <li>En lugar de utilizar un constructor, se utiliza la sintaxis de inicialización de estado de clase para definir el estado del componente.</li>
-  <li>Los métodos <code>multiplicar</code> y <code>dividir</code> se definen utilizando arrow functions. Estos métodos actualizan el estado del componente mediante <code>setState</code>.</li>
-  <li>En el método <code>render()</code> de <code>EventosesES7</code>, se devuelve el JSX correspondiente.</li>
-  <li>Se define el componente funcional <code>Boton</code>, que recibe <code>myOnClick</code> como una prop y muestra un botón.</li>
-  <li>Se define la clase de componente <code>MasSobreEventos</code>.</li>
-  <li>El método <code>handleClick</code> se define para mostrar un mensaje en la consola cuando se produce un evento.</li>
-  <li>En el método <code>render()</code> de <code>MasSobreEventos</code>, se devuelve el JSX correspondiente.</li>
-  <li>Se utiliza el evento <code>onClick</code> en un botón para llamar a <code>handleClick</code> con un mensaje como parámetro.</li>
-  <li>También se utiliza el componente <code>Boton</code>, pasando <code>handleClick</code> como prop <code>myOnClick</code>.</li>
-</ol>
+    <code>🔻<h3>7. EVENTOS </h3>🔻</summary>Los eventos son acciones o interacciones que ocurren en los elementos de la interfaz de usuario, como hacer clic en un botón, escribir en un campo de texto o desplazarse por una lista. Los eventos en React son muy similares a los eventos en HTML y JavaScript, pero tienen algunas diferencias y características específicas de React. <br />
+    En React, los eventos son objetos que se pasan como parámetros a las funciones de controlador de eventos. Estos objetos contienen información sobre el evento que ocurrió, como el tipo de evento, el elemento objetivo y los datos relevantes asociados. Al definir funciones de controlador de eventos en los componentes de React, podemos responder a las acciones del usuario y actualizar el estado del componente o realizar otras operaciones. <br /> <br />
+Algunos ejemplos de eventos en React incluyen: a) onClick, b) onChange, c) onSubmit, d) onMouseOver, o e) onKeyDown </code> 
 
 <details>
   <summary>
