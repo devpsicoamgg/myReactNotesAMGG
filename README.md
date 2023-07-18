@@ -7,8 +7,8 @@
   <a href="https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer"> ReactJS - Jonathan Mircha </a>,  
   <a href="https://es.react.dev/" target="_blank" rel="noopener noreferrer"> documentación oficial de React </a> además de <a href="https://www.reactjs.wiki/" target="_blank" rel="noopener noreferrer"> React-Js-Wiki preguntas & respuestas (comunidad de midulive) </a> </p>
 
-  <h3>1. Componentes con Clase</h3>
-  <details> <summary><code> 🔽¿Qué se hizo y cómo se hizo? 🔽</summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
+  
+  <details> <summary><code> <h3>1. Componentes con Clase</h3> 🔽</summary> En esta sección se encuentra un ejemplo de un componente implementado con una clase de JavaScript. Los componentes de clase son una forma antigua de crear componentes en React, y en este ejemplo se muestra el cómo se define y utiliza un componente de esta manera. </code> <br> </br>
   <ol>
     <li>Se importó la biblioteca <code>React</code> y se importaron las imágenes necesarias para su uso en el componente.</li>
     <li>Se definió una función llamada <code>ComponenteDos</code> que representa el componente funcional.</li>
